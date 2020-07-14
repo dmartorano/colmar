@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    margin-left: 24px;
+    height: 64px;
+}
+
+.logo {
+    height: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.academy {
+    color: gray;
+    
+}
+
+.start {
+    background-color: lightgrey;
+}
+
+.banner {
+    padding: 32px 24px;
+    width: 60%;
+}
