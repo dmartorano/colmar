@@ -5,17 +5,29 @@ html, body {
 .header {
     margin-left: 24px;
     height: 64px;
+    border-bottom: black 2px solid;
 }
 
 .logo {
     height: 32px;
+    font-size: 32px;
     font-weight: bold;
     text-align: left;
 }
 
-.academy {
+.nav {
+    text-align: right;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.nav a {
+    padding: 16px;
+}
+
+#academy {
     color: gray;
-    
+    font-weight: 400;
 }
 
 .start {
