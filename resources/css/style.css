@@ -1,5 +1,6 @@
 html, body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(101, 101, 101)
 }
 
 .header {
@@ -43,10 +44,46 @@ nav a {
     padding: 32px 24px;
     width: 60%;
     display: inline-block;
+    text-align: left;
 }
 
 .learn {
     vertical-align: middle;
-    text-align: center;
+    text-align: left;
     display: inline-block;
+}
+
+#button {
+    color: white;
+    background-color: slategray;
+    padding: 8px;
+    text-align: center;
+}
+
+.testimony {
+    margin: 2px 0px;
+    width: 60%;
+    padding: 32px 24px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
+}
+
+.testimony img {
+    max-width: 100%;
+}
+
+.readmore {
+    width: 36%;
+    float: right;
+    display: inline-flex;
+}
+
+.readmore img {
+    width: 35%;
+    height: auto;
+}
+
+.readmore div {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
