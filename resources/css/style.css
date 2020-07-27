@@ -18,14 +18,12 @@ html, body {
     font-weight: bold;
     text-align: left;
     display: inline-block;
-    float: inline-start;
 }
 
 nav {
     font-size: 32px;
     display: inline-block;
     padding-right: 24px;
-    float: right;
 }
 
 nav a {
@@ -48,6 +46,7 @@ nav a {
 }
 
 .learn {
+    vertical-align: middle;
     text-align: center;
     display: inline-block;
 }
