@@ -73,9 +73,11 @@ nav a {
 }
 
 .readmore {
+    padding-top: 32px;
     width: 36%;
     float: right;
     display: inline-flex;
+    flex-direction: column;
 }
 
 .readmore img {
@@ -86,4 +88,5 @@ nav a {
 .readmore div {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
+    text-align: left;
 }
