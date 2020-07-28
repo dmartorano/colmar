@@ -1,6 +1,10 @@
-html, body {
+html, body, a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(101, 101, 101)
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -48,9 +52,9 @@ nav a {
 }
 
 .learn {
-    vertical-align: middle;
     text-align: left;
     display: inline-block;
+    margin: auto;
 }
 
 #button {
@@ -89,4 +93,20 @@ nav a {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     text-align: left;
+    max-height: 100%;
+}
+
+.startlearning {
+    width: 100%;
+}
+
+.startlearning h2 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.startlearning div {
+    display: flex;
+    justify-content: space-between;
 }
