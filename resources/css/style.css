@@ -97,7 +97,7 @@ nav a {
 }
 
 .startlearning {
-    width: 100%;
+    max-width: 100%;
 }
 
 .startlearning h2 {
@@ -109,4 +109,6 @@ nav a {
 .startlearning div {
     display: flex;
     justify-content: space-between;
+    overflow: wrap;
+    max-width: 100%;
 }
