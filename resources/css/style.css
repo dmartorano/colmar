@@ -1,10 +1,13 @@
-html, body, a {
+html, body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(101, 101, 101)
+    max-width: 1600px;
+    margin: auto;
 }
 
 a {
     text-decoration: none;
+    color: rgb(101, 101, 101);
+    font-weight: bold;
 }
 
 .header {
@@ -82,6 +85,7 @@ nav a {
     float: right;
     display: inline-flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .readmore img {
@@ -94,21 +98,27 @@ nav a {
     border-bottom: 1px solid lightgray;
     text-align: left;
     max-height: 100%;
+    margin: auto;
 }
 
 .startlearning {
     max-width: 100%;
 }
 
+.majors {
+    margin: 32px 72px;
+}
+
+.majors a {
+    max-width: 30%;
+}
+
 .startlearning h2 {
     padding-top: 32px;
-    padding-bottom: 32px;
     text-align: center;
 }
 
 .startlearning div {
     display: flex;
-    justify-content: space-between;
-    overflow: wrap;
-    max-width: 100%;
+    flex-flow: row wrap;
 }
