@@ -103,6 +103,7 @@ nav a {
 
 .startlearning {
     max-width: 100%;
+    background-color: lightgray;
 }
 
 .majors {
@@ -111,6 +112,16 @@ nav a {
 
 .majors a {
     max-width: 30%;
+    background-color: white;
+    padding-bottom: 24px;
+}
+
+.majors h3 {
+    padding: 16px;
+}
+
+.majors p {
+    padding: 8px 16px;
 }
 
 .startlearning h2 {
