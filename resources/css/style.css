@@ -44,7 +44,7 @@ nav a {
 }
 
 .start {
-    background-color: lightgrey;
+    background-color: rgb(185, 184, 184);
 }
 
 .banner {
@@ -68,11 +68,12 @@ nav a {
 }
 
 .testimony {
-    margin: 2px 0px;
+    margin: auto;
     width: 60%;
     padding: 32px 24px;
-    border-right: 1px solid lightgray;
+    border-right: 1px solid slategray;
     display: inline-block;
+    background-color: lightgray;
 }
 
 .testimony img {
@@ -86,24 +87,31 @@ nav a {
     display: inline-flex;
     flex-direction: column;
     margin: auto;
+    background-color: lightgray;
 }
 
 .readmore img {
     width: 35%;
     height: auto;
+    display: inline-block;
+}
+
+.readmoretext {
+    display: inline-block;
+    float: right;
 }
 
 .readmore div {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border-top: 1px solid slategray;
     text-align: left;
     max-height: 100%;
-    margin: auto;
+    margin: 8px;
+    padding-top: 4px;
 }
 
 .startlearning {
     max-width: 100%;
-    background-color: lightgray;
+    background-color: rgb(185, 184, 184);
 }
 
 .majors {
@@ -114,14 +122,21 @@ nav a {
     max-width: 30%;
     background-color: white;
     padding-bottom: 24px;
+    margin: 32px 32px 0 0;
+}
+
+.majors img {
+    max-width: 100%;
 }
 
 .majors h3 {
     padding: 16px;
+    font-weight: bold;
 }
 
 .majors p {
     padding: 8px 16px;
+    font-weight: 400;
 }
 
 .startlearning h2 {
