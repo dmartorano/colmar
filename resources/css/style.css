@@ -2,6 +2,7 @@ html, body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 1600px;
     margin: auto;
+    overflow-x: auto;
 }
 
 a {
@@ -51,16 +52,13 @@ nav a {
 .banner {
     padding: 32px 24px;
     width: 60%;
-    display: block;
-    float: left;
+    display: inline-block;
 }
 
 .learn {
     text-align: left;
-    display: block;
+    display: inline-block;
     margin: auto;
-    float: right;
-    position: relative;
 }
 
 #button {
@@ -75,9 +73,8 @@ nav a {
     width: 60%;
     padding: 32px 24px;
     border-right: 1px solid slategray;
-    display: block;
+    display: inline-block;
     background-color: lightgray;
-    float: left;
 }
 
 .testimony img {
@@ -86,9 +83,9 @@ nav a {
 
 .readmore {
     padding-top: 32px;
-    width: 36%;
+    width: 36.75%;
     float: right;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     margin: auto;
     background-color: lightgray;
@@ -97,19 +94,18 @@ nav a {
 .readmore img {
     width: 35%;
     height: auto;
-    display: block;
-    float: left;
+    display: inline-block;
 }
 
 .readmoretext {
-    display: block;
-    float: right;
+    display: inline-block;
+    overflow: auto;
 }
 
 .readmore div {
     border-top: 1px solid slategray;
     text-align: left;
-    max-height: 100%;
+    max-height: 90%;
     margin: 8px;
     padding-top: 4px;
 }
@@ -152,4 +148,19 @@ nav a {
 .startlearning div {
     display: flex;
     flex-flow: row wrap;
+}
+
+.thesis h3 {
+    padding: 32px;
+    text-align: center;
+}
+
+.reimagine {
+    width: 60%;
+    margin: 24px;
+    text-align: left;
+}
+
+.reimagine video {
+    max-width: 100%;
 }
